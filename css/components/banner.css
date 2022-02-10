@@ -1,0 +1,33 @@
+.banner {
+  padding-top: 125px;
+  padding-bottom: 145px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 2;
+  position: relative;
+}
+
+.banner .inner {
+  padding-left: 24px;
+  padding-right: 24px;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  text-align: center;
+
+  font-size: 45px;
+  line-height: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+
+  max-width: 686px;
+  margin: 0;
+}

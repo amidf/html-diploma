@@ -1,0 +1,263 @@
+.main .inner {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 64px 24px;
+}
+
+.posts .post {
+  display: flex;
+
+  margin-bottom: 59px;
+}
+
+.posts .post:last-child {
+  margin-bottom: 0;
+}
+
+.posts .post img {
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.posts .post .post-description {
+  max-width: 355px;
+}
+
+.posts .post .tags {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 14px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.posts .post .tags li {
+  margin-right: 16px;
+}
+
+.posts .post h3 {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black-lighter);
+}
+
+.posts .post .info {
+  font-size: 12px;
+
+  margin-bottom: 56px;
+}
+
+.posts .post .info time {
+  font-weight: 400;
+  color: var(--grey);
+
+  margin-right: 13px;
+}
+
+.posts .post .info span {
+  font-weight: 700;
+  color: var(--black);
+}
+
+.posts .post .post-summary {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: var(--black-lighter);
+
+  margin: 0;
+}
+
+.main .aside {
+  max-width: 271px;
+  margin-left: 137px;
+}
+
+.main .aside h2 {
+  font-size: 14px;
+  line-height: 29px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black-lighter);
+  text-align: center;
+
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.main .aside h2::after {
+  content: "";
+  width: 66px;
+  height: 3px;
+  opacity: 0.4;
+  background-color: var(--gold);
+  margin: 14px auto 0 auto;
+  display: block;
+}
+
+.main .aside .posts {
+  margin-bottom: 60px;
+}
+
+.main .aside .post--new {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main .aside .post--new:last-child {
+  margin-bottom: 0;
+}
+
+.main .aside .post--new img {
+  width: 70px;
+  height: 70px;
+
+  margin-right: 20px;
+}
+
+.main .aside .post--new .post-info {
+  margin-bottom: 7px;
+}
+
+.main .aside .post--new time {
+  font-size: 12px;
+  line-height: 10px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.main .aside .post--new h3 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black);
+  margin: 0;
+}
+
+.main .aside .search-container {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 60px;
+}
+
+.main .aside input {
+  outline: none;
+  border: none;
+  background-color: var(--white-darker);
+  padding: 18px;
+  width: 100%;
+}
+
+.main .aside .search-container input {
+  flex-grow: 1;
+}
+
+.main .aside input,
+.main .aside input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.main .aside input::placeholder {
+  opacity: 0.54;
+}
+
+.main .aside button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  background-color: var(--gold);
+
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.main .aside .search-container img {
+  max-width: 100%;
+  width: 18px;
+  height: 18px;
+}
+
+.main .aside .newsletter {
+  margin-bottom: 60px;
+}
+
+.main .aside .newsletter button {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.main .aside .tags {
+  margin-bottom: 60px;
+}
+
+.main .aside .tags ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .aside .tags li {
+  border: 3px solid var(--white-darkest);
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--black-lighter);
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+  cursor: pointer;
+}
+
+.main .aside .topics ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main .aside .topics li {
+  font-size: 14px;
+  line-height: 47px;
+  font-weight: 700;
+  color: var(--black);
+  cursor: pointer;
+
+  display: flex;
+
+  border-bottom: 1px solid var(--white-darkest);
+}
+
+.main .aside .topics .counter {
+  font-size: 12px;
+  line-height: 36px;
+  font-weight: 700;
+  color: var(--gold);
+
+  margin-top: 4px;
+  margin-left: 4px;
+}

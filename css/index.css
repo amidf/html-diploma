@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("./normalize.css");
+@import url("./vars.css");
+
+@import url("./components/header.css");
+@import url("./components/banner.css");
+@import url("./components/main.css");
+@import url("./components/footer.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
